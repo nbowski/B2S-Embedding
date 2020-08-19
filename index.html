@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>📊 Embedding Session 📈</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="header1">This Is Our DS11 Embedding Page 👍</h1>
+    <div>
+      <button id="pdfButton">Export to PDF</button>
+      <button id="imageButton">Export to Image</button>
+      <button id="powerpointButton">Export to PowerPoint</button>
+    </div>
+    <hr />
+    <div>
+      <button id="showButton">Show</button>
+      <button id="hideButton">Hide</button>
+    </div>
+    <hr />
+    <div>
+        <button class="filter" value="Central">Central</buttonl>
+        <button class="filter" value="North">North</button>
+        <button class="filter" value="South">South</button>
+    </div>
+    <hr />
+    <div>
+      <button id="switchViz">Switch Viz</button>
+    </div>
+    <div id="vizContainer"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
